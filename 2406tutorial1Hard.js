@@ -28,7 +28,6 @@ if(index1 > 0 ){
   }
  else response.write('World\n');
    //end HTTP response and provide final data to send
-   response.write('Faggotry should be condemmed ')
    response.end("["+ counter++ + "]\n");
 }).listen(3000, "127.0.0.1");
 console.log('Server Running at http://127.0.0.1:3000  CNTL-C to quit');
